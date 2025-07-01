@@ -1,0 +1,50 @@
+.theme-modern {
+  --primary-color: #2563eb;
+  --secondary-color: #3b82f6;
+  --text-color: #1e293b;
+  --bg-color: #ffffff;
+  --section-bg: #f8fafc;
+  --border-color: #e2e8f0;
+}
+
+.theme-modern .preview {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.theme-modern .preview h1 {
+  color: var(--primary-color);
+  border-bottom: 3px solid var(--primary-color);
+  padding-bottom: 0.5rem;
+}
+
+.theme-modern .preview section {
+  background: var(--section-bg);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+/* Modern theme - dark mode adjustments */
+.dark-mode.theme-modern {
+  --primary-color: #60a5fa;
+  --secondary-color: #93c5fd;
+  --text-color: #e5e7eb;
+  --bg-color: #1f2937;
+  --section-bg: #374151;
+  --border-color: #4b5563;
+}
+
+.dark-mode.theme-modern .preview {
+  background-color: #1f2937;
+  color: #e5e7eb;
+}
+
+.dark-mode.theme-modern .preview h1 {
+  color: #60a5fa;
+}
+
+.dark-mode.theme-modern .preview section {
+  background-color: #374151;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}

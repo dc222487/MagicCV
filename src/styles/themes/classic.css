@@ -1,0 +1,339 @@
+.theme-classic {
+  --primary-color: #2c3e50;
+  --secondary-color: #34495e;
+  --accent-color: #7f8c8d;
+  --text-color: #2c3e50;
+  --bg-color: #f5f7fa;
+  --section-bg: #ffffff;
+  --border-color: #d1d5db;
+  --header-bg: #2c3e50;
+  --header-text: #ffffff;
+  --section-title: #2c3e50;
+  --divider-color: #bdc3c7;
+}
+
+.theme-classic .app {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: 'Georgia', 'Times New Roman', serif;
+}
+
+.theme-classic header {
+  background-color: var(--header-bg);
+  color: var(--header-text);
+  padding: 1.5rem 2rem;
+  margin-bottom: 2rem;
+  border-bottom: 3px solid var(--divider-color);
+  border-radius: 0;
+}
+
+.theme-classic h1, 
+.theme-classic h2, 
+.theme-classic h3 {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+}
+
+.theme-classic h1 {
+  color: var(--header-text);
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: none;
+  margin-bottom: 0.5rem;
+}
+
+.theme-classic .section-header h2 {
+  color: var(--section-title);
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 2px solid var(--divider-color);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.theme-classic .general-info,
+.theme-classic .education,
+.theme-classic .experience,
+.theme-classic .skills-section {
+  background-color: var(--section-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 0;
+  box-shadow: none;
+  padding: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.theme-classic .display-info {
+  background: transparent;
+  box-shadow: none;
+  padding: 0;
+}
+
+.theme-classic .contact-info {
+  font-style: italic;
+  color: var(--accent-color);
+  margin-top: 0.5rem;
+}
+
+.theme-classic .contact-info p::before {
+  content: "|";
+  margin: 0 0.75rem;
+  color: var(--divider-color);
+}
+
+.theme-classic .summary {
+  font-style: italic;
+  line-height: 1.7;
+  margin-top: 1.2rem;
+  padding-top: 1.2rem;
+  border-top: 1px dashed var(--divider-color);
+  color: var(--text-color);
+}
+
+.theme-classic .education-item,
+.theme-classic .experience-item {
+  margin-bottom: 1.8rem;
+  padding-bottom: 1.8rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.theme-classic .education-item:last-child,
+.theme-classic .experience-item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.theme-classic .experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.5rem;
+}
+
+.theme-classic .experience-header h3 {
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+.theme-classic .experience-header p {
+  color: var(--accent-color);
+  font-style: italic;
+}
+
+.theme-classic .position {
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-bottom: 0.75rem;
+}
+
+.theme-classic .responsibilities {
+  line-height: 1.7;
+  color: var(--text-color);
+}
+
+.theme-classic .skills-container {
+  padding-left: 1.5rem;
+}
+
+.theme-classic .skill-tag {
+  display: inline-block;
+  background: transparent;
+  color: var(--text-color);
+  padding: 0.25rem 0;
+  margin: 0 0.75rem 0.75rem 0;
+  border: none;
+  border-bottom: 1px solid var(--divider-color);
+  border-radius: 0;
+  font-style: italic;
+}
+
+.theme-classic .tabs button {
+  background: transparent;
+  color: var(--text-color);
+  border-radius: 0;
+  border-bottom: 3px solid transparent;
+  font-family: 'Georgia', serif;
+}
+
+.theme-classic .tabs button.active {
+  border-bottom: 3px solid var(--primary-color);
+  color: var(--primary-color);
+  background: transparent;
+}
+
+.theme-classic button {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 0;
+  font-family: 'Georgia', serif;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 0.7rem 1.5rem;
+}
+
+.theme-classic button:hover {
+  background-color: var(--secondary-color);
+  transform: none;
+}
+
+.theme-classic input,
+.theme-classic textarea,
+.theme-classic select {
+  border: 1px solid var(--border-color);
+  border-radius: 0;
+  background: white;
+  font-family: 'Arial', sans-serif;
+  padding: 0.75rem;
+}
+
+.theme-classic input:focus,
+.theme-classic textarea:focus {
+  box-shadow: none;
+  border-color: var(--primary-color);
+}
+
+.theme-classic .template-selector {
+  font-family: 'Georgia', serif;
+}
+
+.theme-classic .template-option {
+  border: 1px solid var(--border-color);
+  border-radius: 0;
+}
+
+.theme-classic .template-option.active {
+  border: 2px solid var(--primary-color);
+}
+
+.theme-classic .preview {
+  background: white;
+  padding: 2.5rem;
+  border: 1px solid var(--border-color);
+  box-shadow: 0 0 20px rgba(0,0,0,0.05);
+}
+
+.theme-classic .preview .contact-info {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-top: 0.5rem;
+  font-style: normal;
+}
+
+.theme-classic .preview .contact-info p::before {
+  display: none;
+}
+
+.theme-classic .preview .summary {
+  text-align: center;
+  max-width: 800px;
+  margin: 1.5rem auto 0;
+  font-style: normal;
+  border-top: none;
+  padding-top: 0;
+}
+
+.theme-classic .preview section {
+  margin-top: 2rem;
+}
+
+.theme-classic .preview .education-item,
+.theme-classic .preview .experience-item {
+  margin-bottom: 1.5rem;
+}
+
+.theme-classic .preview .education-item h3,
+.theme-classic .preview .experience-item h3 {
+  margin-bottom: 0.25rem;
+}
+
+.theme-classic .preview .skills-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.theme-classic .preview .skill-tag {
+  text-align: center;
+  padding: 0.5rem;
+  border: 1px solid var(--border-color);
+  margin: 0;
+  font-style: normal;
+}
+
+/* Resume Analytics */
+.theme-classic .analytics {
+  margin-top: 2.5rem;
+  padding-top: 2rem;
+  border-top: 2px solid var(--divider-color);
+}
+
+.theme-classic .score-card {
+  display: flex;
+  justify-content: space-around;
+  margin: 1.5rem 0;
+}
+
+.theme-classic .score {
+  text-align: center;
+  padding: 1rem;
+  border: 1px solid var(--border-color);
+  width: 30%;
+}
+
+.theme-classic .score span {
+  display: block;
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.theme-classic .improvement-tips {
+  background: #f9f9f9;
+  padding: 1.5rem;
+  border-left: 4px solid var(--primary-color);
+}
+
+.theme-classic .improvement-tips ul {
+  padding-left: 1.5rem;
+}
+
+.theme-classic .improvement-tips li {
+  margin-bottom: 0.75rem;
+  line-height: 1.6;
+}
+
+/* Classic theme - dark mode adjustments */
+.dark-mode.theme-classic {
+  --primary-color: #93c5fd;
+  --secondary-color: #bfdbfe;
+  --accent-color: #9ca3af;
+  --text-color: #e5e7eb;
+  --bg-color: #1f2937;
+  --section-bg: #374151;
+  --border-color: #4b5563;
+  --header-bg: #111827;
+  --header-text: #e5e7eb;
+  --section-title: #93c5fd;
+  --divider-color: #4b5563;
+}
+
+.dark-mode.theme-classic header {
+  background-color: var(--header-bg);
+  color: var(--header-text);
+}
+
+.dark-mode.theme-classic .preview {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  border-color: #4b5563;
+}
+
+.dark-mode.theme-classic .preview h1 {
+  color: #e5e7eb;
+}

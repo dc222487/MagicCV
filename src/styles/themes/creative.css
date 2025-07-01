@@ -1,0 +1,48 @@
+.theme-creative {
+  --primary-color: #7e22ce;
+  --secondary-color: #a855f7;
+  --text-color: #1e293b;
+  --bg-color: #fdf2f8;
+  --section-bg: #ffffff;
+  --border-color: #fbcfe8;
+}
+
+.theme-creative .preview {
+  font-family: 'Comic Sans MS', 'Chalkboard SE', cursive;
+  background: linear-gradient(135deg, #fdf2f8 0%, #f0f9ff 100%);
+}
+
+.theme-creative .preview h1 {
+  color: var(--primary-color);
+  font-weight: 800;
+  text-shadow: 2px 2px 0px rgba(0,0,0,0.1);
+}
+
+.theme-creative .preview section {
+  background: var(--section-bg);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 16px;
+  border-left: 5px solid var(--primary-color);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+/* Creative theme - dark mode adjustments */
+.dark-mode.theme-creative {
+  --primary-color: #d8b4fe;
+  --secondary-color: #e9d5ff;
+  --text-color: #e5e7eb;
+  --bg-color: #1f2937;
+  --section-bg: #374151;
+  --border-color: #4b5563;
+}
+
+.dark-mode.theme-creative .preview {
+  background: linear-gradient(135deg, #1f2937 0%, #111827 100%);
+  color: #e5e7eb;
+}
+
+.dark-mode.theme-creative .preview h1 {
+  color: #d8b4fe;
+  text-shadow: 2px 2px 0px rgba(0,0,0,0.3);
+}
